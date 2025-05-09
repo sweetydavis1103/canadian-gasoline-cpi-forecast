@@ -1,0 +1,17 @@
+===== GASOLINE CPI FORECASTING SUMMARY =====
+Time period analyzed: 2000 / 1 to 2025 / 2 
+Models evaluated: ARIMA, ETS, Seasonal Naive, Drift, Mean,SARIMA
+Best forecasting model: ETS 
+Forecast period: 2025-03 to 2026-02 
+Expected CPI range (next 12 months): 233.1 to 244.8 
+
+Model Accuracy Metrics:
+           Model          ME      RMSE       MAE      MAPE
+1            ETS  -0.9180077  8.542316  6.518712  2.852025
+2          Drift   7.6050090 13.988943 11.496585  4.902609
+3          ARIMA  14.8022142 18.408928 15.491957  6.579173
+4         SARIMA  14.8022142 18.408928 18.408928  6.579173
+5 Seasonal Naive -17.8041667 28.637439 22.512500  9.753439
+6           Mean  75.5382194 76.314404 75.538219 32.829771
+7       Ensemble          NA        NA        NA        NA
+============================================
